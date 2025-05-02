@@ -1,28 +1,60 @@
-# Dongwei Zhang
+<h1>Welcome! 👋</h1>
+<p>Hi! I'm <strong>Dongwei Zhang</strong>, a Financial Engineering student at Cornell.</p>
 
-Cornell M.Eng. Financial Engineering student with strong interests in algorithmic trading, quantitative research, and machine learning.
+<nav>
+  <a href="#about" class="btn">About Me</a>
+  <a href="#projects" class="btn">Projects</a>
+  <a href="#contact" class="btn">Contact</a>
+</nav>
 
----
+<img src="https://images.unsplash.com/photo-1542223616-7819b3ac49ba" alt="Finance Theme" width="100%" style="margin-top: 20px; border-radius: 10px;">
 
-## 💼 Projects
+<section id="about">
+  <h2>About Me</h2>
+  <p>I love combining quantitative finance and machine learning. Outside of work, I enjoy cello, soccer, and exploring board game strategy.</p>
+</section>
 
-- **Bitcoin Pricing Model**: Co-authored SSRN paper using nonlinear volume-based optimization.
-- **SPX Options Strategy**: Achieved 17% return and Sharpe ratio of 2.54 using volatility-driven structures.
-- **A-H Arbitrage**: Built mid-frequency strategy with 2.09 Sharpe ratio across 8 Chinese industries.
-- **PCA Stock Ranking**: Ranked SaaS companies by cash flow quality via principal component analysis.
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>SPX Options Strategy</strong> – Built a volatility-based options strategy using PCA and delta hedging.</li>
+    <li><strong>Bitcoin On-chain Research</strong> – Replaced Yahoo volume with on-chain data for asset pricing accuracy.</li>
+    <li><strong>Arbitrage Engine</strong> – Developed A-H share arbitrage signals based on regression residuals.</li>
+  </ul>
+</section>
 
----
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: dongweiz@example.com</p>
+  <p>GitHub: <a href="https://github.com/dongweiz">dongweiz</a></p>
+</section>
 
-## 🛠️ Skills
-
-- Python, C++, R, SQL, VBA, MATLAB  
-- Machine Learning, Monte Carlo, PCA, Regression, Backtesting  
-- GitHub: [dongweiz](https://github.com/dongweiz)
-
----
-
-## 📫 Contact
-
-Email: dz374@cornell.edu  
-Location: Ithaca, NY  
-Resume: [View PDF](./Dongwei_Zhang_Resume.pdf)
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #2c3e50;
+  }
+  nav {
+    margin-bottom: 20px;
+  }
+  .btn {
+    background: #007acc;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background: #005fa3;
+  }
+  section {
+    margin-top: 40px;
+  }
+</style>
